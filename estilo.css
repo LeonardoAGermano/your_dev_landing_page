@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ 
+}
+
+.container{
+    height: 9vh;
+}
+
+.menu{
+  background: white;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-family: calibri;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color:gray;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+
+/* fim do header */
+
+.content{
+    padding: 10px;
+    margin-top: 90px;
+    background-color: white ;
+}
+
+
+p{
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.caixa2{
+    text-align: center;
+    padding: 50px;
+}
+
+.caixa2 .texto1{
+    font-size: 96px;
+    font-family: calibri;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.caixa2 .paragrafo1{
+    font-family: calibri;
+    font-size: 34px;
+    color: black;
+}
+
+.submenu{
+    display: inline-block;
+}
+
+.opcoes{
+    display: inline-block;
+    margin-left: 34px;
+    margin-right: 34px;
+    padding: 43px;
+    
+}
+
+
+.section1{
+    100vh
+}
+
+.caixa2 .texto2{
+    text-align: left;
+    font-size: 96px;
+    font-family: calibri;
+}
+
+.caixa2 .paragrafo2{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 54px;
+    color: black;
+    text-align: left;
+}
